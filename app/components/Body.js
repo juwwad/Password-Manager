@@ -102,7 +102,7 @@ const Body = () => {
             <input name="username" value={form.username} onChange={handleChange} className="px-4 w-[26rem] mx-2 rounded-3xl border border-green-500 focus:bg-green-100 focus:outline-none sm:w-[80vw]" type="text" placeholder="Enter Username" />
             <input name="password" value={form.password} onChange={handleChange} className="px-4 mx-2 rounded-3xl border border-green-500 focus:bg-green-100 focus:outline-none sm:w-[80vw] sm:mt-4" type="password" placeholder="Enter Password" />
           </div>
-          <script src="https://cdn.lordicon.com/lordicon.js"></script>
+          <script src="https://cdn.lordicon.com/lordicon.js" defer></script>
           <button onClick={savePassword} className="mt-8 bg-green-400 font-bold py-1 px-4 flex items-center gap-1 rounded-3xl">
             <lord-icon
               src="https://cdn.lordicon.com/jgnvfzqg.json"
