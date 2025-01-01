@@ -5,7 +5,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 - It takes your email, username and password and saves it on the `localStorage`. This project is not currently connected to Backend, but is highly expected to become fully functional any time soon.
 - This is a responsive application optimized for mobile phones.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open (http://password-manager-five-beta.vercel.app/) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
