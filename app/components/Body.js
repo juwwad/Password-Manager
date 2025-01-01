@@ -150,7 +150,7 @@ const Body = () => {
                         </div>
                       </div></td>
                       <td><div className='flex items-center justify-center sm:overflow-scroll'>
-                        <span>{item.password}</span>
+                        <span>{'*'.repeat(item.password.length)}</span>
                         <div className='lordiconcopy size-7 cursor-pointer sm:hidden' onClick={() => { copyText(item.password) }}>
                           <lord-icon
                             style={{ "width": "25px", "height": "25px", "paddingTop": "3px", "paddingLeft": "3px" }}
